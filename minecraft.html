@@ -1,73 +1,58 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>Adam's Website</title>
-	<!-- Latest compiled and minified CSS -->
+    <title>Adam's Website</title>
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
+
 <body>
-<div class="container">
-	<h1>Minecraft Page </h1>
+    <div class="container">
+        <h1>Minecraft Page </h1>
+        <div class="btn-toolbar">
+            <a href="index.html" class="btn btn-default">Home Page</a>
+            <a href="minecraft.html" class="btn btn-default">Minecraft Page</a>
+            <a href="stephen-hawking.html" class="btn btn-default">Stephen Hawking Page</a>
+        </div>
+        
 
+        <h3> Hello and welcome to my minecraft Page</h3>
+        
+        <p>This will probaly be your favorite page so i will try to add to it the most :).
+        </p>
+        <img src="images/back of castle.jpg" style="width:350px;margin:20px;" />
 
-	<div class="btn-toolbar">
-		<a href="index.html" class="btn btn-default">Home Page</a>
-		<a href="minecraft.html" class="btn btn-default">Minecraft Page</a>
-		<a href="stephen-hawking.html" class="btn btn-default">Stephen Hawking Page</a>
-</div>
-<h3> Hello and welcome to my minecraft Page</h3> 
+	    <div>
+	        <p> Do you think this is the back of a castle?
+	        </p>
+	    </div>
 
-<p>This will probaly be your favorite page so i will try to add to it
-the most :).
-</p>
+	    <button id="showanswer" class="btn btn-primary">Show Answer</button>
+	    <br>
+	    <br>
+	    <div id="answer" class="alert alert-info" style="display:none;">
+	        <p>No it is not the back of a castle</p>
+	    </div>
 
-<img src="images/back of castle.jpg" style="width:350px;float:left;margin:20px;"/>
-
-</div>
-
-<div>
-
-<p> Do you think this is the back of a castle?
-</p>
-</div>
-<div>
-
-
-
-<button id="showanswer" class="btn btn-primary">Show Answer</button>
-	<br><br>
-	<div id="answer" class="alert alert-info" style="display:none;">
-	  <p>No it is not</p>
-
+	    <div>
+	        <p> Now we can see some things that I built: </p>
+	    </div>
+	    <div>
+	        <img src="images/rainbow man.jpg" style="width:350px;margin:20px;" />
+	    </div>
+	    <div>
+	        <p> This is my rainbow man. I built it in about 10 minutes and it was on the same world as the smiley face, the castle wall and the hi sign.
+	    </div>
 	</div>
 
 
-	
-
-<script>
-	var button = document.querySelector('#showanswer')
-	button.addEventListener('click',function(){
-		document.querySelector('#answer').style.display="block";	
-	});
-</script>
-
-
-<div> <p> Now we can see some things that I built: </p> </div>
-<div>
-<img src="images/rainbow man.jpg" style="width:350px;float:left;margin:20px;"/>
-</div>
-
-<div>
-<p> This is my rainbow man. I built it in about 10 minutes and it was on 
-/   the same world as the smiley face, the castle wall and the hi sign.
-
-
-</div>
-
-
-
-
-
-
+    <script>
+	    var button = document.querySelector('#showanswer')
+	    button.addEventListener('click', function() {
+	        document.querySelector('#answer').style.display = "block";
+	    });
+    </script>
 </body>
-</html 
+
+</html>
