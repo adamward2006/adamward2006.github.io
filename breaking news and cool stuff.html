@@ -4,14 +4,13 @@
 	<title>Adam's Website</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.1/TweenMax.min.js"></script>
+
+
 <body>
 
 <div class="container">
-<h1>Home Page</h1>
-
-<h2>HHHHHHEEEEELLLLLLOOOOOOOOOO people out there</h2>
-
-<p>Hope you enjoy my website :)
+<h1>Breaking News and Cool Stuff</h1>
 
 	<div class="btn-toolbar">
 		<a href="index.html" class="btn btn-default">Home Page</a>
@@ -19,17 +18,13 @@
 		<a href="stephen-hawking.html" class="btn btn-default">Stephen Hawking Page</a>
 		<a href="breaking news and cool stuff.html" class="btn btn-default">Breaking News and Cool Stuff</a>
 	</div>
-
-	<div class="row">
-	
-		<img src="images/hi minecraft.jpg" style="width:300px;float:left;margin:20px;"/>
-	    <img src="images/smiley face minecraft.jpg" style="width:300px;float:left;margin:20px;"/>
-	</div>
-
 	
 
 </div>
 
+<script>
+TweenMax.staggerFrom(".btn",1,{scale:0},0.5)
+</script>
 
 </body>
 </html>
